@@ -1,0 +1,45 @@
+.dice-container{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.dice{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 1px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+}
+
+.dice:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.selected {
+    border: 2px solid red;
+}
+
+.used {
+    background-color: green;
+    cursor: not-allowed;
+}

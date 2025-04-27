@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Dungeon</title>
+    <link rel="stylesheet" href="styles/game.css">
+</head>
+<body>
+    <h1>Dice Dungeon</h1>
+ 
+    <div id="status"></div>
+
+    <h2>Stats</h2>
+
+    <div>
+        <span>Total score:</span>
+        <span id="total">0</span>
+    </div>
+
+    
+    <div>
+        <span>Selected:</span>
+        <span id="selected">0</span>
+    </div>
+
+    <h2>Dices</h2>
+    <div class="dice-container">
+        <div id="dice-1" class="dice">0</div>
+        <div id="dice-2" class="dice">0</div>
+        <div id="dice-3" class="dice">0</div>
+        <div id="dice-4" class="dice">0</div>
+        <div id="dice-5" class="dice">0</div>
+        <div id="dice-6" class="dice">0</div>
+    </div>
+
+
+    <button onclick="roll()">Roll the dice!</button>
+    <button id="confirm-btn">Confirm</button>
+
+    <script src="scripts/game.js"></script>
+</body>
+</html>
